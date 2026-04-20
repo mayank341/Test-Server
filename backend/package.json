@@ -1,0 +1,16 @@
+{
+  "name": "test-server-backend",
+  "version": "1.0.0",
+  "description": "Backend for admin/user/teacher portals",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "uuid": "^11.0.3"
+  }
+}
